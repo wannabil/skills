@@ -4,6 +4,10 @@ Personal Claude Code skills, copied from `~/.claude/skills/`. Drop any of these 
 
 ## Available skills
 
+### `research/`
+
+Builds a distilled research PDF on any topic. Pulls papers from OpenAlex + ArXiv (free, no API key), ranks by citations × recency, and synthesizes into a structured PDF.
+
 ### `frontend-design/`
 
 Research-driven Next.js + Tailwind page builder. Defaults to category research (top-5 reference sites, screenshot, synthesize, build), with a **reference-site mode** for when the user names a single site to copy:
