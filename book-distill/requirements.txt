@@ -1,0 +1,6 @@
+anthropic>=0.40.0
+pdfplumber>=0.11.0
+pypdf>=4.0.0
+ebooklib>=0.18
+beautifulsoup4>=4.12.0
+genanki>=0.13.0
