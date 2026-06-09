@@ -8,6 +8,10 @@ Personal Claude Code skills, copied from `~/.claude/skills/`. Drop any of these 
 
 Builds a distilled research PDF on any topic. Pulls papers from OpenAlex + ArXiv (free, no API key), ranks by citations × recency, and synthesizes into a structured PDF.
 
+### `teach/`
+
+Stateful teaching workspace for learning a new skill or concept over multiple sessions. Captures the user's mission, curated resources, lessons, references, glossary, and learning records so each session builds from prior progress.
+
 ### `frontend-design/`
 
 Research-driven Next.js + Tailwind page builder. Defaults to category research (top-5 reference sites, screenshot, synthesize, build), with a **reference-site mode** for when the user names a single site to copy:
